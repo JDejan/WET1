@@ -1,0 +1,205 @@
+/*Global Reset*/
+* {
+	Margin: 0;
+	Padding: 0;
+	font-family: Arial, Verdana, Arial, Helvetica;
+	font-size: 12px;
+}
+body {
+	background-color: #CDCDCD;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 950px;
+	background-color: white;
+}
+#header {
+	height: 440px;
+	position: relative;
+	background-image: url("images/reiters_header.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#reiterslogo {
+	position: absolute;
+	left: 50px;
+	z-index: 1;
+}
+#avancelogo {
+	background-color: white;
+	position: absolute;
+	left: 230px;
+}
+#search {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#navi {
+	height: 40px;
+	background-image: url("images/reiters_main_navi.png");
+	background-repeat: repeat-x;
+	text-align: center;
+}
+#navi li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+	position: relative;
+	top: 17px;
+}
+#navi a {
+	font-size: 100%;
+	font-weight: bold;
+	color: gray;
+	text-decoration: none;
+}
+#navi a:hover {
+	color: #C90036;
+}
+#navi a:active {
+	color: #C90036;
+}
+#navi2 {
+	margin-bottom: 20px;
+	width: 160px;
+}
+#navi2 li {
+
+	list-style-image: url("images/reiters_list_square.png");
+	list-style-position: inside;
+	padding-bottom: 3px;
+}
+#navi2 a {
+	color: gray;
+	text-decoration: none;
+}
+#navi2 a:hover {
+	color: #C90036;
+}
+#navi2 a:active {
+	color: #C90036;
+}
+#urlaubsanfrage  p {
+	display: inline;
+	font-size: 80%;
+}
+.btn {
+	color: white;
+	background-color: #C90036;
+}
+#urlaubsanfrage {
+	width: 163px;
+	font-size: 80%;
+	margin-top: 30px;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+#urlaubsanfrage_header {
+	background-color: gray;
+	color: white;
+	padding: 5px 0 5px 0;
+	text-align: center;
+}
+#urlaubsanfrage_inputs {
+	padding: 5px 25px 5px 30px;
+	font-size: 70%;
+}
+#urlaubsanfrage input {
+	border-color: #C90036;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 80%;
+	margin: 5px 0 5px 0;
+}
+#txtschmal {
+	width: 15px;
+}
+#txtweit {
+	width: 30px;
+}
+#dateselect {
+	color: #C90036;
+}
+#kopf {
+	background-color: gray;
+	color: white;
+}
+#linkliste {
+	margin-top: 30px;
+}
+#content {
+	height: 600px;
+}
+#leftcontent {
+
+	float: left;
+	width: 180px;
+	height: 580px;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+#rightcontent {
+	float: right;
+	width: 700px;
+	height: 580px;
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#rightcontent li {
+	list-style-type: none;
+	display: inline;
+	float: left;
+	margin-right: 7px;
+}
+#rightcontent .zimmer {
+	width: 167px;
+	height: 200px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#footer {
+	padding-left: 50px;
+	vertical-align: middle;
+	background-color: #C90036;
+	color: white;
+	height: 20px;
+}
+#footer a {
+	text-align: center;
+	color: white;
+	font-size: 90%;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer a:active {
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-size: 190%;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: #C90036;
+}
+h2 {
+	font-size: 120%;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+h3 {
+	font-size: 110%;
+	color: #C90036;
+	font-weight: 600;
+}
+span {
+	font-weight: bold;
+}

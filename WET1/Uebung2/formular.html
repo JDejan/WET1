@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Uebung02 - Formular</title>
+</head>
+<body>
+<h1>WET - Übung02 - Formular</h1>
+<form action="mailto:wi11b086@technikum-wien.at" method="post" enctype="text/plain">
+
+	<fieldset> <legend>Personendaten</legend>
+	<table>
+	<tr> 	
+		<td>Vorname:</td>
+		<td><input type="text" name="vorname" value=" "/></td> 
+	</tr>
+	<tr>	
+		<td>Nachname:</td>
+		<td><input type="text" name="nachname" value=" "/></td>
+	</tr>
+	<tr>	
+		<td>E-Mail-Adresse:</td>
+		<td><input type="text" name="E-Mail-Adresse" value=" "/></td>
+	</tr>
+	<tr>	
+		<td>Anfragethema:</td>
+		<td>
+			<select name="anfragethema">
+				<option value="Thema Eins">Thema Eins</option>
+				<option value="Thema Zwei">Thema Zwei</option>
+				<option value="Thema Drei">Thema Drei</option>
+			</select>
+		</td>
+	</tr>
+	<tr>	
+		<td>Anfragetext:</td>
+		<td><textarea name="anfragetext" cols="40" rows="3"> </textarea></td>
+	</tr>
+	</table>
+	</fieldset>	
+	
+	<fieldset> <legend>Alter</legend>
+	<table>
+	<tr>
+		<td><input type="radio" name="alter" value="15 bis 20"/></td>
+		<td> 15 bis 20</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="alter" value="20 bis 25"/></td>
+		<td> 20 bis 25</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="alter" value="25 bis 30"/></td>
+		<td> 25 bis 30</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="alter" value="30 bis 40"/></td>
+		<td> 30 bis 40</td>
+	</tr>
+	</table>	
+   </fieldset>	
+	
+	<fieldset> <legend>Newsletter</legend>	
+		<input type="checkbox" name="newsletter" value="1"/>Ich möchte ein Newsletter abbonieren!<br/>
+	</fieldset>
+	
+	<fieldset> <legend>Buttons</legend> 
+		<input type="submit" name="submit" value="Abschicken!" />
+		<input type="reset"  name="reset"  value="Zurücksetzen" />
+	</fieldset>
+</form>
+</body>
+</html>

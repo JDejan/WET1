@@ -1,0 +1,53 @@
+/*Global Reset*/
+* {
+	Margin: 0;
+	Padding: 0;
+	font-family: Verdana, Arial, Helvetica, Tahoma;
+	font-size: 12px;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	height: 700px;
+	border-style: solid;
+	border-width: 1px;
+	background-image: url("images/background.jpg");
+	background-repeat: repeat-x;
+}
+#header {
+	height: 40px;
+	padding: 20px 0 10px 20px;
+}
+#main {
+	height: 640px;
+	width: inherit;
+}
+#boxes {
+	padding: 30px;
+	margin: 20px;
+	height: 600px;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 20px;
+	float: left;
+	border-color: #2E8CAE;
+}
+.box  p {
+	font-size: 250%;
+	color: #092D43;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 33px;
+}
+.box:hover p {
+	border-color: white;
+	color: white;
+}
+.box:hover {
+	border-color: white;
+}
+
